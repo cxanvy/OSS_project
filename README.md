@@ -42,14 +42,14 @@
 1. 필요한 패키지 설치  
    먼저 main.py와 requirements.txt가 들어 있는 폴더로 이동한 뒤,  
    해당 폴더에서 터미널(CMD, PowerShell, macOS/Linux의 Terminal)을 열어 아래 명령어를 입력합니다:
-
-'''pip install -r requirements.txt'''
-
+'''
+pip install -r requirements.txt
+'''
 2. 프로그램 실행  
    패키지 설치 완료 후 아래 명령어를 입력하면 웹 브라우저에서 프로그램이 실행됩니다:
-
-'''streamlit run main.py'''
-
+'''
+streamlit run main.py
+'''
 ## 입력 및 출력
 
 입력  
