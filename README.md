@@ -1,8 +1,9 @@
 # OSS_project
 # 2025-1 DAU OSS Project - 확장형 가위바위보 게임 제작
 
-이 프로젝트는 사용자가 웹 브라우저를 통해 가위바위보 게임을 플레이할 수 있도록 구현한 Streamlit 기반 소프트웨어입니다.
-기본적인 게임 기능 외에도, 학부생·석박사·교수님 세 가지 난이도의 AI 선택, 사용자 전적 기록 및 초기화, 전체 승률 랭킹 확인 기능을 제공합니다.
+이 프로젝트는 사용자가 웹 브라우저에서 가위바위보 게임을 플레이할 수 있는 Streamlit 기반 소프트웨어입니다.  
+기본적인 가위바위보 기능에 더해, 학부생/석박사/교수님 세 가지 난이도의 AI 선택,
+사용자 전적 기록, 사용자별 전적 초기화, 전체 랭킹 확인 기능이 포함되어 있습니다.
 
 ## 개발 목적
 
@@ -30,22 +31,59 @@
 
 - OSS_project.py (다운로드 필수): 게임 로직과 UI가 포함된 실행 파일
 - requirements.txt (다운로드 필수): 의존 패키지를 설치하는 데 사용
+- README.md (설명용): 프로그램의 목적, 기능, 실행 방법 등이 포함된 설명 파일
+※ records.csv 파일은 게임 실행 시 자동으로 생성되므로 따로 배포하지 않았습니다 (전적 저장용 파일)
+
+## 설치 및 실행 방법
+
+1. 필요한 패키지 설치
+
+먼저 OSS_project.py와 requirements.txt가 들어 있는 폴더로 이동한 뒤,  
+해당 폴더에서 터미널(CMD, PowerShell, macOS/Linux의 Terminal)을 열어 아래 명령어를 입력합니다:
+
+```
+pip install -r requirements.txt
+```
+
+2. 프로그램 실행
+
+패키지 설치 완료 후 아래 명령어를 입력하면 웹 브라우저에서 프로그램이 실행됩니다:
+
+```
+streamlit run OSS_project.py
+```
+
+### 실행 시 참고사항
+
+처음 Streamlit을 실행하면 다음과 같은 메시지가 출력될 수 있습니다:
+
+You can now view your Streamlit app in your browser.
+Local URL: http://localhost:8501
+
+
+브라우저가 자동으로 열리지 않는 경우,  
+위 메시지에 나오는 `Local URL` 또는 `Network URL`을 복사하여 웹 브라우저 주소창에 붙여넣으면 됩니다.
+
+이때 Streamlit은 초기 실행 시 이메일 입력을 요청할 수 있으며,  
+이메일을 입력하지 않아도 실행에는 문제가 없습니다.  
+(단, 입력 시 사용자 통계 수집 설정이 적용될 수 있습니다.)
+
+- 이해를 돕기 위한 예시 이미지 (이하)
+![image](https://github.com/user-attachments/assets/4d2ee5be-bbb6-4e2e-9632-960d1186557f)
+
+## 입력 및 출력
+
+입력  
+- 사용자 이름 (텍스트 입력)  
+- AI 난이도 (학부생 / 석박사 / 교수님)  
+- 가위, 바위, 보 선택 버튼
+
+출력  
+- 승/패/무 결과  
+- AI 선택 표시  
+- 전적 저장 및 표 형태로 확인 가능  
 - README.md (설명용): 프로그램화
 - 전체 승률 랭킹 상위 5명 표시
-
-## 파일 구성
-
-OSS_project.py  
-  - 전체 기능 포함된 실행 파일
-
-requirements.txt  
-  - 필요한 패키지 목록 및 버전 정보 (streamlit, pandas, numpy, requests)  
-
-README.md  
-  - 이 설명서  
-
-records.csv  
-  - 게임 결과가 자동으로 저장되는 파일 (처음 실행 시 자동 생성됨)
 
 ## 개발자
 
