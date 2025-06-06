@@ -2,7 +2,9 @@
 # 2025-1 DAU OSS Project - 확장형 가위바위보 게임 제작
 
 이 프로젝트는 사용자가 웹 브라우저에서 가위바위보 게임을 플레이할 수 있는 Streamlit 기반 소프트웨어입니다.  
-기본적인 가위바위보 기능에 더해, AI 난이도 선택, 사용자 전적 기록, 전체 랭킹 확인 기능이 포함되어 있습니다.
+기본적인 가위바위보 기능에 더해, 학부생/석박사/교수님 세 가지 난이도의 AI 선택,
+사용자 전적 기록, 전체 랭킹 확인 기능이 포함되어 있습니다.
+
 
 ## 개발 목적
 
@@ -24,18 +26,29 @@
 - 로컬에서 단독 실행 가능
 - 별도 서버 또는 외부 네트워크 연결 불필요
 
+## 프로젝트 구성 파일
+
+이 프로젝트를 실행하기 위해 필요한 파일은 다음과 같습니다:
+
+- main.py (다운로드 필수): 게임 로직과 UI가 포함된 실행 파일
+- requirements.txt (다운로드 필수): 의존 패키지를 설치하는 데 사용
+- README.md (설명용): 프로그램의 목적, 기능, 실행 방법 등이 포함된 설명 파일
+
+※ records.csv 파일은 게임 실행 시 자동으로 생성되므로 따로 배포하지 않았습니다 (전적 저장용 파일)
+
+
 ## 설치 및 실행 방법
 
 1. 필요한 패키지 설치  
    먼저 main.py와 requirements.txt가 들어 있는 폴더로 이동한 뒤,  
    해당 폴더에서 터미널(CMD, PowerShell, macOS/Linux의 Terminal)을 열어 아래 명령어를 입력합니다:
 
-  pip install -r requirements.txt
+'''pip install -r requirements.txt'''
 
 2. 프로그램 실행  
    패키지 설치 완료 후 아래 명령어를 입력하면 웹 브라우저에서 프로그램이 실행됩니다:
 
-  streamlit run main.py
+'''streamlit run main.py'''
 
 ## 입력 및 출력
 
@@ -55,7 +68,7 @@
 main.py  
   - 전체 기능 포함된 실행 파일  
 requirements.txt  
-  - 필요한 패키지 목록 및 버전전 (streamlit, pandas, numpy, requests)  
+  - 필요한 패키지 목록 및 버전 정보 (streamlit, pandas, numpy, requests)  
 README.md  
   - 이 설명서  
 records.csv  
@@ -65,6 +78,3 @@ records.csv
 
 GitHub: https://github.com/cxanvy 
 작성자: Cxanvy
-
-
-
