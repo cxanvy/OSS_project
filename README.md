@@ -36,11 +36,14 @@
 ## 파일 구성
 
 OSS_project.py  
-  - 전체 기능 포함된 실행 파일  
+  - 전체 기능 포함된 실행 파일
+
 requirements.txt  
   - 필요한 패키지 목록 및 버전 정보 (streamlit, pandas, numpy, requests)  
+
 README.md  
   - 이 설명서  
+
 records.csv  
   - 게임 결과가 자동으로 저장되는 파일 (처음 실행 시 자동 생성됨)
 
