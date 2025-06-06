@@ -30,7 +30,7 @@
 
 이 프로젝트를 실행하기 위해 필요한 파일은 다음과 같습니다:
 
-- main.py (다운로드 필수): 게임 로직과 UI가 포함된 실행 파일
+- OSS_project.py (다운로드 필수): 게임 로직과 UI가 포함된 실행 파일
 - requirements.txt (다운로드 필수): 의존 패키지를 설치하는 데 사용
 - README.md (설명용): 프로그램의 목적, 기능, 실행 방법 등이 포함된 설명 파일
 
@@ -41,7 +41,7 @@
 
 1. 필요한 패키지 설치
 
-먼저 main.py와 requirements.txt가 들어 있는 폴더로 이동한 뒤,  
+먼저 OSS_project.py와 requirements.txt가 들어 있는 폴더로 이동한 뒤,  
 해당 폴더에서 터미널(CMD, PowerShell, macOS/Linux의 Terminal)을 열어 아래 명령어를 입력합니다:
 
 ```
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 패키지 설치 완료 후 아래 명령어를 입력하면 웹 브라우저에서 프로그램이 실행됩니다:
 
 ```
-streamlit run main.py
+streamlit run OSS_project.py
 ```
 
 ## 입력 및 출력
@@ -71,7 +71,7 @@ streamlit run main.py
 
 ## 파일 구성
 
-main.py  
+OSS_project.py  
   - 전체 기능 포함된 실행 파일  
 requirements.txt  
   - 필요한 패키지 목록 및 버전 정보 (streamlit, pandas, numpy, requests)  
