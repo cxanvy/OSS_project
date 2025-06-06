@@ -56,6 +56,25 @@ pip install -r requirements.txt
 streamlit run OSS_project.py
 ```
 
+### 실행 시 참고사항
+
+처음 Streamlit을 실행하면 다음과 같은 메시지가 출력될 수 있습니다:
+
+You can now view your Streamlit app in your browser.
+Local URL: http://localhost:8501
+
+
+브라우저가 자동으로 열리지 않는 경우,  
+위 메시지에 나오는 `Local URL` 또는 `Network URL`을 복사하여 웹 브라우저 주소창에 붙여넣으면 됩니다.
+
+이때 Streamlit은 초기 실행 시 이메일 입력을 요청할 수 있으며,  
+이메일을 입력하지 않아도 실행에는 문제가 없습니다.  
+(단, 입력 시 사용자 통계 수집 설정이 적용될 수 있습니다.)
+
+- 이해를 돕기 위한 예시 이미지 (이하)
+![image](https://github.com/user-attachments/assets/4d2ee5be-bbb6-4e2e-9632-960d1186557f)
+
+
 ## 입력 및 출력
 
 입력  
