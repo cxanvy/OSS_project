@@ -1,5 +1,4 @@
-# OSS_project
-# 2025-1 DAU OSS Project - 확장형 가위바위보 게임 제작
+# 2025-1 DAU OSS - 확장형 가위바위보 게임
 
 이 프로젝트는 사용자가 웹 브라우저에서 가위바위보 게임을 플레이할 수 있는 Streamlit 기반 소프트웨어입니다.  
 기본적인 가위바위보 기능에 더해, 학부생/석박사/교수님 세 가지 난이도의 AI 선택,
@@ -29,8 +28,8 @@
 
 이 프로젝트를 실행하기 위해 필요한 파일은 다음과 같습니다:
 
-- OSS_project.py (다운로드 필수): 게임 로직과 UI가 포함된 실행 파일
-- requirements.txt (다운로드 필수): 의존 패키지를 설치하는 데 사용
+- OSS_project.py (메인 소스 코드): 게임 로직과 UI가 포함된 실행 파일
+- requirements.txt (사용된 패키지 목록): 의존 패키지를 설치하는 데 사용
 - README.md (설명용): 프로그램의 목적, 기능, 실행 방법 등이 포함된 설명 파일
   
 - records.csv 파일은 게임 실행 시 자동으로 생성되므로 따로 배포하지 않았습니다 (전적 저장용 파일)
@@ -87,5 +86,7 @@ Local URL: http://localhost:8501
 
 ## 개발자
 
-GitHub: https://github.com/cxanvy 
-작성자: Cxanvy
+개발자:Cxanvy
+Repository Link:https://github.com/cxanvy/OSS_project
+개발자 이메일:light5588@naveer.com
+라이선스:MIT 라이선스를 따릅니다. 이 소프트웨어를 기반으로 다른 프로젝트를 개발하거나 수정하는 것을 허용합니다.
