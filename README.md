@@ -87,6 +87,9 @@ Local URL: http://localhost:8501
 ## 개발자
 
 개발자:Cxanvy
+
 Repository Link:https://github.com/cxanvy/OSS_project
+
 개발자 이메일:light5588@naveer.com
+
 라이선스:MIT 라이선스를 따릅니다. 이 소프트웨어를 기반으로 다른 프로젝트를 개발하거나 수정하는 것을 허용합니다.
